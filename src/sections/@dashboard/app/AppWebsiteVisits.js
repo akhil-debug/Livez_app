@@ -9,39 +9,44 @@ import { BaseOptionChart } from '../../../components/charts';
 
 const CHART_DATA = [
   {
-    name: 'Team A',
+    name: 'DELHI',
     type: 'column',
-    data: [23, 11, 22, 27, 13, 22, 37, 21, 44, 22, 30]
+    data: [0, 0, 0, 0, 0, 0, 0, 0, 0]
   },
   {
-    name: 'Team B',
+    name: 'KERALA',
     type: 'area',
-    data: [44, 55, 41, 67, 22, 43, 21, 41, 56, 27, 43]
+    data: [0, 0, 0, 0, 0, 0, 0, 0, 0]
   },
   {
-    name: 'Team C',
+    name: 'ANDHRA PRADESH',
     type: 'line',
-    data: [30, 25, 36, 30, 45, 35, 64, 52, 59, 36, 39]
+    data: [0, 0, 0, 0, 0, 0, 0, 0, 0]
+  },
+  {
+    name: 'RAJASTAN',
+    type: 'line',
+    data: [0, 0, 0, 0, 0, 0, 0, 0, 0]
   }
 ];
 
 export default function AppWebsiteVisits() {
   const chartOptions = merge(BaseOptionChart(), {
-    stroke: { width: [0, 2, 3] },
-    plotOptions: { bar: { columnWidth: '11%', borderRadius: 4 } },
+    stroke: { width: [5, 5, 5, 5] },
+    plotOptions: { bar: { columnWidth: '10%', borderRadius: 4 } },
     fill: { type: ['solid', 'gradient', 'solid'] },
     labels: [
-      '01/01/2003',
-      '02/01/2003',
-      '03/01/2003',
-      '04/01/2003',
-      '05/01/2003',
-      '06/01/2003',
-      '07/01/2003',
-      '08/01/2003',
-      '09/01/2003',
-      '10/01/2003',
-      '11/01/2003'
+      '01/01/2022',
+      '02/01/2022',
+      '03/01/2022',
+      '04/01/2022',
+      '05/01/2022',
+      '06/01/2022',
+      '07/01/2022',
+      '08/01/2022',
+      '09/01/2022',
+      '10/01/2022',
+      '11/01/2021'
     ],
     xaxis: { type: 'datetime' },
     tooltip: {
@@ -60,7 +65,7 @@ export default function AppWebsiteVisits() {
 
   return (
     <Card>
-      <CardHeader title="Website Visits" subheader="(+43%) than last year" />
+      <CardHeader title="TOP USERS" />
       <Box sx={{ p: 3, pb: 1 }} dir="ltr">
         <ReactApexChart type="line" series={CHART_DATA} options={chartOptions} height={364} />
       </Box>
