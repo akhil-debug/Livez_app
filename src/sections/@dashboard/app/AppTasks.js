@@ -14,11 +14,11 @@ import {
 // ----------------------------------------------------------------------
 
 const TASKS = [
-  'Create FireStone Logo',
-  'Add SCSS and JS files if required',
-  'Stakeholder Meeting',
-  'Scoping & Estimations',
-  'Sprint Showcase'
+  'Update PPE kit as Out of Stock',
+  'Add Sanitizor in Products list',
+  'Add Oxygen Mask',
+  'Calculate monthly profits',
+  'Update Discounts for products'
 ];
 
 // ----------------------------------------------------------------------
