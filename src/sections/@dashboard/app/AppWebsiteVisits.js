@@ -11,7 +11,7 @@ const CHART_DATA = [
   {
     name: 'DELHI',
     type: 'column',
-    data: [0, 0, 0, 0, 0, 0, 0, 0, 0]
+    data: [4, 0, 0, 0, 0, 0, 0, 0, 0]
   },
   {
     name: 'KERALA',
