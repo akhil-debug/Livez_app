@@ -1,29 +1,11 @@
-## Minimal [(Free version)](https://minimal-kit-react.vercel.app/)
+## Livez app
 
-![license](https://img.shields.io/badge/license-MIT-blue.svg)
+- This App will help to save the lives of many people and manage the disaster more efficiently.
+- Natural disasters due to climate change are at an all-time high. Livez has the potential to save
+  lives through its state of the art technology.
+- During a calamity or an accident, help has to arrive quickly. But unfortunately, that is not the case always. Livez aims at minimizing the response time and caters to help as swiftly as possible.
+- Tonnes of applications are out there that aims to provide emergency help and disaster management tools, but most of them aren't effective. What makes Livez stand       out is the plethora of utilities that are provided in a single application.
 
-> Free React Admin Dashboard made with Material-UI components and React.
-
-![preview](public/static/preview.png)
-
-| [Minimal Free](https://minimal-kit-react.vercel.app/) | [Minimal](https://material-ui.com/store/items/minimal-dashboard/) |
-| ----------------------------------------------------- | :---------------------------------------------------------------- |
-| **7** Demo pages                                      | **42+** demo pages                                                |
-| -                                                     | ✓ Multi-language                                                  |
-| -                                                     | ✓ Dark/Light Mode 🌓                                              |
-| -                                                     | ✓ [More components](https://minimals.cc/components)               |
-| -                                                     | ✓ TypeScript version                                              |
-| -                                                     | ✓ Design files (Figma & Sketch)                                   |
-
-## Page demo
-
-- [Dashboard](https://minimal-kit-react.vercel.app/dashboard/app)
-- [Users](https://minimal-kit-react.vercel.app/dashboard/user)
-- [Product](https://minimal-kit-react.vercel.app/dashboard/products)
-- [Blog](https://minimal-kit-react.vercel.app/dashboard/blog)
-- [Login](https://minimal-kit-react.vercel.app/login)
-- [Register](https://minimal-kit-react.vercel.app/register)
-- [Not Found](https://minimal-kit-react.vercel.app/404)
 
 ## Getting started
 
@@ -33,8 +15,5 @@
 
 ## License
 
-Distributed under the MIT License. See [LICENSE](https://github.com/minimal-ui-kit/minimal.free/blob/main/LICENSE.md) for more information.
+Distributed under the MIT License.
 
-## Contact us
-
-Email Us: support@minimals.cc
