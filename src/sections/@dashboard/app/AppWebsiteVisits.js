@@ -24,7 +24,7 @@ const CHART_DATA = [
     data: [0, 0, 0, 0, 0, 0, 0, 0, 0]
   },
   {
-    name: 'RAJASTAN',
+    name: 'RAJASTHAN',
     type: 'line',
     data: [0, 0, 0, 0, 0, 0, 0, 0, 0]
   }

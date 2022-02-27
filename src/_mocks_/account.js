@@ -1,8 +1,8 @@
 // ----------------------------------------------------------------------
 
 const account = {
-  displayName: 'AKHIL P DOMINIC',
-  email: 'akhilpdominic@yahoo.com',
+  displayName: 'VENDOR NAME',
+  email: 'vendorname@yahoo.com',
   photoURL: '/static/mock-images/avatars/avatar_default.jpg'
 };
 

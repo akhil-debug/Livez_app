@@ -10,15 +10,14 @@ import {
   AppWeeklySales,
   AppOrderTimeline,
   AppCurrentVisits,
-  AppWebsiteVisits,
-  AppTrafficBySite
+  AppWebsiteVisits
 } from '../sections/@dashboard/app';
 
 // ----------------------------------------------------------------------
 
 export default function DashboardApp() {
   return (
-    <Page title="Dashboard | Minimal-UI">
+    <Page title="Dashboard | Livez">
       <Container maxWidth="xl">
         <Box sx={{ pb: 5 }}>
           <Typography variant="h4">LIVEZ</Typography>
@@ -47,10 +46,6 @@ export default function DashboardApp() {
 
           <Grid item xs={12} md={6} lg={4}>
             <AppOrderTimeline />
-          </Grid>
-
-          <Grid item xs={12} md={6} lg={4}>
-            <AppTrafficBySite />
           </Grid>
 
           <Grid item xs={12} md={6} lg={8}>
