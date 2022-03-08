@@ -90,11 +90,9 @@ export default function DashboardSidebar({ isOpenSidebar, onCloseSidebar }) {
           spacing={3}
           sx={{ pt: 5, borderRadius: 2, position: 'relative' }}
         >
-         
-
-          
+          {}
         </Stack>
-      </Box>  
+      </Box>
     </Scrollbar>
   );
 

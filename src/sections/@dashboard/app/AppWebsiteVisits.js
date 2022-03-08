@@ -11,22 +11,22 @@ const CHART_DATA = [
   {
     name: 'DELHI',
     type: 'column',
-    data: [0, 0, 0, 0, 0, 0, 0, 0, 0]
+    data: [1, 2, 3, 4, 0, 5, 5, 2, 3]
   },
   {
     name: 'KERALA',
     type: 'area',
-    data: [0, 0, 0, 0, 0, 0, 0, 0, 0]
+    data: [0, 0, 9, 0, 0, 0, 0, 18, 0]
   },
   {
     name: 'ANDHRA PRADESH',
     type: 'line',
-    data: [0, 0, 0, 0, 0, 0, 0, 0, 0]
+    data: [0, 4, 0, 0, 1, 0, 0, 3, 0]
   },
   {
     name: 'RAJASTHAN',
     type: 'line',
-    data: [0, 0, 0, 0, 0, 0, 0, 0, 0]
+    data: [9, 0, 0, 0, 0, 8, 0, 0, 10]
   }
 ];
 
